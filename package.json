@@ -1,15 +1,29 @@
 {
-  "name": "mobile",
+  "name": "server",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
+  "description": "Backend server with PayPal integration",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server-dev": "nodemon index.js",
+    "start": "node index.js",
+    "prod": "NODE_ENV=production node index.js",
+    "test": "echo \"No tests defined\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@vitalets/google-translate-api": "^9.2.1"
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "@paypal/paypal-server-sdk": "^1.0.0",
+    "@vitalets/google-translate-api": "^9.2.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+  "express": "^5.1.0",
+    "mongoose": "^8.18.0",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
