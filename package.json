@@ -52,8 +52,8 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.202",
-    "@types/react": "^18.2.56",
-    "@types/react-beautiful-dnd": "^13.1.8",
+  "@types/react": "^19.0.0",
+  "@types/react-dom": "^19.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "@typescript-eslint/parser": "^7.0.2",
